@@ -1,0 +1,90 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bree Serif', serif;
+    background: #222;
+    height: 100%;
+    user-select: none;
+}
+
+body{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    width: 40.5rem;
+    height: 25.0rem;
+    background-color: #111;
+    border: 1px solid #567a79;
+}
+
+
+.container h1{
+    position: relative;
+    bottom: 0.8rem;
+    color: #fff;
+}
+
+.container::before{
+    content: '';
+    position: absolute;
+    top: 4.0rem;
+    width: 40.5rem;
+    height: 0.1rem;
+    background-color: #567a79;
+}
+
+.container input{
+    position: relative;
+    outline: 0;
+    border: 0;
+    background-color: #111;
+    color: #fff;
+    border-bottom: 2px solid #567a79;
+    top:7vh;
+}
+
+.send{
+    margin-top: 10rem;
+    background-color: #333;
+    border-radius: 7px;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    width: 20.0rem;
+    height: 2.0rem;
+}
+
+.send:hover{
+    background-color: #333;
+}
+
+#pass{
+    margin-top: 20px;
+}
+
+.forg-pass{
+    position: absolute;
+    font-size: 0.7rem;
+    left: 21.0rem;
+    top: 14.0rem;
+    cursor: pointer;
+    color: #fff ;
+}
+
+.forg-pass:hover{
+    color: #53918f;
+}
+
+#particles-js{
+    height: 100%;
+    color: #111;
+
+}
